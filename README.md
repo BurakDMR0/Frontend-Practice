@@ -18,5 +18,6 @@ Kolay ulaşabilmeniz açısından tamamladığım challange'ları videolu anlat�
 |**Challange#5** |-|[Live Demo](https://ekekekekeke.vercel.app/)|
 |**Challange#6** |-|[Live Demo](https://brk.vercel.app/)|
 |**Challange#7** |-|[Live Demo](https://challanges.vercel.app/)|
+|**Challange#8** |-|[Live Demo](https://challanges111.vercel.app/)|
 
 
