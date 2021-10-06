@@ -1,106 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
+
+html,
 body {
-    font-family: 'Lexend Deca', sans-serif;
-    
-    background-color: hsl(233, 47%, 7%);
-    box-sizing: border-box;
+  height: 100%;
 }
-.container {
-    margin: 20px;
-    box-sizing: border-box;
+
+body {
+  background-color: #090b1a;
+  margin: 20px;
+  color: #fff;
 }
-.card{
-    background-color: hsl(244, 38%, 16%);
-    text-align: center;
-    border-radius: 10px;
-    padding-bottom: 20px;
+
+body .container {
+  background-color: #1b1938;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
 }
-.image {
-    background-image: url(./images/image-header-mobile.jpg);
-    height: 400px;
-    background-repeat: no-repeat;
+
+body .container .img {
+  background-image: url(./images/image-header-mobile.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+body .container .img .overlay {
+  height: 100%;
+  background-color: rgba(117, 63, 151, 0.6);
+}
+
+body .container .content-box {
+  font-family: "Inter", sans-serif;
+  padding: 35px 35px 0 35px;
+}
+
+body .container .content-box h2 span {
+  color: #aa5cdb;
+}
+
+body .container .content-box p {
+  margin: 20px 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+}
+
+body .container .content-box ul li {
+  margin: 25px 0;
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+body .container .content-box ul li span {
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  text-transform: lowercase;
+}
+
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    height: calc(100% - 20px);
+  }
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  body .container .img,
+  body .container .content-box {
+    width: 400px;
+  }
+  body .container .img {
+    height: 100%;
     background-size: cover;
-    margin-bottom: 30px;
-    width: auto;
-    border-radius: 10px 10px 0 0;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-position: top;
+  }
+  body .container .content-box {
+    text-align: start;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 50px 70px 50px 50px;
+  }
+  body .container .content-box ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
-.overlay {
-    width: 100%;
-    height: inherit;
-    background-color: hsla(277, 64%, 61%,0.5);
-    border-radius: 10px 10px 0 0;
-}
-h1 {
-    color: hsl(0, 0%, 100%);
-    margin-bottom: 50px;
-    margin: 30px;
-}
-p {
-    color: #fff;
-    opacity: 0.7;
-    margin: 30px;
-    font-size: 14px;
-    font-family: 'Inter', sans-serif;
-    line-height: 1.7;
-}
-ul span{
-    display: block;
-    color: #fff;
-    font-size: 1.9rem;
-    text-transform: lowercase;
-    opacity: 1;
-    margin-bottom: 10px;
-}
-ul li {
-    text-transform: uppercase;
-    color: hsla(0, 0%, 100%, 0.6);
-    margin-bottom: 30px;
-}
-
-span{color:hsl(277, 64%, 61%);}
-.attribution { font-size: 11px; text-align: center; color: hsl(0, 0%, 100%); padding-bottom: 20px;}
-.attribution a { color: hsl(228, 45%, 44%); }
-
-@media(min-width: 768px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .card {
-        padding: 0;
-        box-sizing: border-box;
-        max-height: 500px;
-        max-width: calc(540*2);
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: row-reverse;
-    }
-    .content-box {
-        width: 540px;
-        text-align: start;
-        padding: 50px;
-        box-sizing: border-box;
-    }
-    .image {
-        margin: 0;
-        background-image: url(./images/image-header-mobile.jpg);
-        border-radius: 0 10px 10px 0;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 540px;
-        height: 500px;
-    }
-    .overlay {border-radius: 0 10px 10px 0;}
-    ul {
-        display: flex;
-        padding: 50px;
-        justify-content: space-between;
-    }
-}
+/*# sourceMappingURL=style.css.map */
