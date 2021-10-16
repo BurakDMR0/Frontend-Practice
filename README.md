@@ -9,7 +9,7 @@ Merhaba, front-end geliştirici olma yolunda ilerlerken yaptığım büyüklü k
 
 Kolay ulaşabilmeniz açısından tamamladığım challange'ları videolu anlatımları ve demoları ile birlikte paylaşıyorum: 
 
-|Challange'lar                |Videolu Anlatımı(Yakında)                          |Live Demo                         |
+|Challange'lar                |Videolu Anlatımı                          |Live Demo                         |
 |----------------|-------------------------------|-----------------------------|
 |**Challange#1**|[Tutorial Videosu](https://youtu.be/eqeyQEml_oQ)|[Live Demo](https://frontend-mentor-eta-flax.vercel.app/)|
 |**Challange#2**|[Tutorial Videosu](https://youtu.be/dDe5VsuhksI)|[Live Demo](https://challange.vercel.app/#)            |
