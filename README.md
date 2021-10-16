@@ -11,8 +11,8 @@ Kolay ulaşabilmeniz açısından tamamladığım challange'ları videolu anlat�
 
 |Challange'lar                |Videolu Anlatımı(Yakında)                          |Live Demo                         |
 |----------------|-------------------------------|-----------------------------|
-|**Challange#1**|-|[Live Demo](https://frontend-mentor-eta-flax.vercel.app/)|
-|**Challange#2**|-|[Live Demo](https://challange.vercel.app/#)            |
+|**Challange#1**|[Tutorial Videosu](https://youtu.be/eqeyQEml_oQ)|[Live Demo](https://frontend-mentor-eta-flax.vercel.app/)|
+|**Challange#2**|[Tutorial Videosu](https://youtu.be/dDe5VsuhksI)|[Live Demo](https://challange.vercel.app/#)            |
 |**Challange#3** |-|[Live Demo](https://my-fe-p-burakdmr0.vercel.app/)|
 |**Challange#4** |-|[Live Demo](https://frontend-practice2-psi.vercel.app/)|
 |**Challange#5** |-|[Live Demo](https://ekekekekeke.vercel.app/)|
