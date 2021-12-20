@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .view {
+    opacity: 0;
+  }
+  .layer:hover .view {
+    opacity: 1;
+  }
+  .layer:hover {
+    cursor: pointer;
+  }
+  .layer:hover .img {
+    opacity: 0.75;
+  }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="
+      bg-main-bg
+      font-outfit
+      flex
+      justify-center
+      items-center
+      flex-col
+      min-h-screen
+    "
+  >
+    <div class="bg-card-bg w-[360px] p-5 rounded-xl">
+      <div
+        class="
+          transition-all
+          relative
+          bg-brand-cyan
+          z-20
+          rounded-lg
+          flex
+          justify-center
+          items-center
+          layer
+        "
+      >
+        <img
+          src="./images/icon-view.svg"
+          class="z-50 transition-all absolute view"
+          alt=""
+        />
+        <img
+          src="./images/image-equilibrium.jpg"
+          class="img z-10 h-80 rounded-lg transition-all"
+          alt=""
+        />
+      </div>
+      <h1
+        class="
+          hhh2
+          my-3
+          text-white text-[22px]
+          font-semibold
+          hover:text-brand-cyan hover:cursor-pointer
+          transition-all
+        "
+      >
+        Equilibrium #3429
+      </h1>
+      <p class="text-soft-blue opacity-70">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div
+        class="
+          flex
+          justify-between
+          items-center
+          py-4
+          border-b border-brand-line
+        "
+      >
+        <div class="flex text-brand-cyan">
+          <img src="./images/icon-ethereum.svg" class="mr-2" alt="" /> 0.041 ETH
+        </div>
+        <div class="flex items-center text-soft-blue">
+          <img src="./images/icon-clock.svg" class="mr-2" alt="" /> 3 days left
+        </div>
+      </div>
+      <div class="text-soft-blue pt-4 flex justify-start items-center">
+        <img
+          src="./images/image-avatar.png"
+          class="border border-white rounded-full h-8 mr-3"
+          alt=""
+        />
+        Creation of
+        <span
+          class="
+            text-white
+            ml-1
+            transition-all
+            hover:text-brand-cyan hover:cursor-pointer
+          "
+          >Jules Wyvern</span
+        >
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Burak Demir</a>.
+    </div>
+  </body>
+</html>
